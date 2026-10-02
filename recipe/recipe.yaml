@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.11.2"
+  version: "0.11.5"
 
 package:
   name: google-cloud-vectorsearch
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/google-cloud-vectorsearch/google_cloud_vectorsearch-${{ version }}.tar.gz
-  sha256: 7079263ae702122a3fd865faabab61a10339786843c75506ee8e9f9593316244
+  sha256: f85e120847010dcfd66f54e10689e645e2422e48d5c21a3ac5b8b86348fe55f4
 
 build:
   noarch: python
